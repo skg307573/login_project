@@ -13,17 +13,17 @@ export class ServiceService {
   }
   success(msg: string){
   this.toaster.success(msg, 'Success', {
-    timeOut: 3000,
+    timeOut: 2000,
   })
   }
   warning(msg: string){
     this.toaster.warning(msg, 'Warning', {
-      timeOut: 3000,
+      timeOut: 2000,
     })
   }
   error(msg:string){
     this.toaster.error(msg, 'Error', {
-      timeOut: 3000,
+      timeOut: 2000,
     })
   }
    encrypt(txt: string): string {
